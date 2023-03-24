@@ -2,6 +2,8 @@
 """
 Verifica si se pueden desbloquear todos los cajones de una lista dada.
 """
+
+
 def canUnlockAll(boxes):
     """
     Verifica si se pueden desbloquear todos los cajones de una lista dada.
@@ -28,7 +30,8 @@ def canUnlockAll(boxes):
     while keys:
         new_k = []
         for key in keys:
-            # Revisa si la llave está en el diccionario y si el cajón está bloqueado
+            # Revisa si la llave está en el diccionario
+            # y si el cajón está bloqueado
             if key in unlock.keys() and unlock[key] is False:
                 # Agrega las llaves del cajón a la lista
                 new_k += boxes[key]
