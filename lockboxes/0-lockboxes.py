@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-
+"""
+Verifica si se pueden desbloquear todos los cajones de una lista dada.
+"""
 def canUnlockAll(boxes):
     """
     Verifica si se pueden desbloquear todos los cajones de una lista dada.
